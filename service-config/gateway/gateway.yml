@@ -1,6 +1,6 @@
 gateway:
   routes:
-    - id: route-01
+    - id: route-02
       uri: http://localhost:9001
       predicates:
         - After=2020-04-20T00:00:00+08:00[Asia/Shanghai]
