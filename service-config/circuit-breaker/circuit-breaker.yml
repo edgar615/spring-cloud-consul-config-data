@@ -16,7 +16,7 @@ resilience4j.circuitbreaker:
       slidingWindowSize: 5
       permittedNumberOfCallsInHalfOpenState: 2
       waitDurationInOpenState: 1000
-      failureRateThreshold: 20
+      failureRateThreshold: 30
       eventConsumerBufferSize: 10
       registerHealthIndicator: true
     backendB:
