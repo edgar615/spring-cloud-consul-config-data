@@ -1,1 +1,4 @@
 msg: "Hello user - this is from config server"
+
+some:
+    msg: "Hello user - this is from config server"
